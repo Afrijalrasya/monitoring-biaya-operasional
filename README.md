@@ -8,21 +8,22 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
 ![ETL Flow](docs/proses_etl.png)
 
 # Struktur Folder
-  .
-  ├── docs/                        # Dokumentasi visual proyek
-  │   ├── Dashboard-PBI.png        # Tampilan dashboard Power BI
-  │   ├── model-data.pdf           # Diagram model data
-  │   └── proses_etl.png           # Diagram alur ETL
-  ├── kettle/                      # Folder berisi file Kettle (ETL)
-  │   ├── Etl_monitoring_biaya.kjb # Job utama ETL
-  │   ├── job/                     # (opsional) Sub-job lainnya
-  │   ├── setVariable_timestamp.ktr
-  │   ├── setbudget.ktr
-  │   ├── staging_area.ktr
-  │   ├── transaksi_load.ktr
-  │   └── transform.ktr
-  ├── LICENSE
-  └── README.md
+
+    .
+    ├── docs/                        # Dokumentasi visual proyek
+    │   ├── Dashboard-PBI.png        # Tampilan dashboard Power BI
+    │   ├── model-data.pdf           # Diagram model data
+    │   └── proses_etl.png           # Diagram alur ETL
+    ├── kettle/                      # Folder berisi file Kettle (ETL)
+    │   ├── Etl_monitoring_biaya.kjb # Job utama ETL
+    │   ├── job/                     # (opsional) Sub-job lainnya
+    │   ├── setVariable_timestamp.ktr
+    │   ├── setbudget.ktr
+    │   ├── staging_area.ktr
+    │   ├── transaksi_load.ktr
+    │   └── transform.ktr
+    ├── LICENSE
+    └── README.md
 
 📁 Sumber Data
 Anggaran Biaya: Berasal dari file Excel berisi alokasi budget per departemen dan kategori.
