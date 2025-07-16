@@ -7,6 +7,10 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
 🔄 Alur ETL
 ![ETL Flow](docs/proses_etl.png)
 
+
+# Visualization
+![Dashboard](docs/Monitoring_dashboard.png)
+
 # 📁 Struktur Folder
 
     .
@@ -25,8 +29,7 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
     ├── LICENSE
     └── README.md
 
-🔄 Alur ETL
-![Dashboard](docs/Monitoring_dashboard.png)
+
 
 # 📁 Sumber Data
 
