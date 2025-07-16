@@ -7,7 +7,7 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
 🔄 Alur ETL
 ![ETL Flow](docs/proses_etl.png)
 
-# Struktur Folder
+# 📁 Struktur Folder
 
     .
     ├── docs/                        # Dokumentasi visual proyek
@@ -25,7 +25,9 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
     ├── LICENSE
     └── README.md
 
-📁 Sumber Data
+
+# 📁 Sumber Data
+
 Anggaran Biaya: Berasal dari file Excel berisi alokasi budget per departemen dan kategori.
 
 Transaksi Biaya: Data transaksi real yang direkam harian/bulanan.
