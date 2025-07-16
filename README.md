@@ -25,6 +25,8 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
     ├── LICENSE
     └── README.md
 
+🔄 Alur ETL
+![Dashboard](docs/Monitoring_dashboard.png)
 
 # 📁 Sumber Data
 
