@@ -1,4 +1,4 @@
-# 🚀 Monitoring Biaya Perusahaan - ETL & Dashboard 📊
+# 🚀 Monitoring Biaya Perusahaan - ETL & Dashboard
 
 Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan dashboard interaktif untuk memantau penggunaan biaya perusahaan berdasarkan departemen dan kategori pada tahun 2025. Proyek ini dikembangkan menggunakan Pentaho Data Integration (PDI) untuk proses ETL dan Power BI untuk visualisasi data.
 
