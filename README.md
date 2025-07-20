@@ -35,7 +35,7 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
 
     Budget            : Berasal dari file Excel berisi alokasi budget per departemen dan kategori.
     
-    Transaksi Biaya   : Data transaksi real yang direkam harian/bulanan.
+    Transaksi Biaya   : Data transaksi dummy.
     
     Dimensi Pendukung : Tabel referensi untuk dim_waktu, dim_kategori, dim_departemen.
 
@@ -45,7 +45,7 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
 Halo! Saya **Afrijal Rasya Putra**, seorang **mahasiswa Informatika** yang sedang tertarik mendalami dunia **Data**. Meskipun masih di awal perjalanan kuliah, saya sangat antusias belajar tentang bagaimana data diproses dan diubah menjadi informasi yang bermakna.
 
 📌 Saat ini saya sedang belajar:
-- Data Visualization
+- Teknik pengolahan data
 - **SQL** dan dasar-dasar manipulasi data
 - Konsep dasar **ETL** dan alur kerja data pipeline
 
