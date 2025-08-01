@@ -8,7 +8,7 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
 ![ETL Flow](docs/proses_etl.png)
 
 
-# Visualization
+# Dashboard
 ![Dashboard](docs/Monitoring_dashboard.png)
 
 # 📁 Struktur Folder
