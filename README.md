@@ -1,7 +1,6 @@
-# 🚀 Monitoring Biaya Perusahaan - ETL & Dashboard
+# 🚀 Operational Cost Monitoring - ETL & Dashboard
 
-Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan dashboard interaktif untuk memantau penggunaan biaya perusahaan berdasarkan departemen dan kategori pada tahun 2025. Proyek ini dikembangkan menggunakan Pentaho Data Integration (PDI) untuk proses ETL dan Power BI untuk visualisasi data.
-
+This project aims to build an ETL (Extract, Transform, Load) process and an interactive dashboard to monitor the company's cost usage by department and category in 2025. The project is developed using Pentaho Data Integration (PDI) for ETL process and Power BI for data visualization.
 ----
 
 🔄 Alur ETL
@@ -14,13 +13,13 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
 # 📁 Struktur Folder
 
     .
-    ├── docs/                        # Dokumentasi visual proyek
-    │   ├── Dashboard-PBI.png        # Tampilan dashboard Power BI
+    ├── docs/                        
+    │   ├── Dashboard-PBI.png        # Power BI dashboard view
     │   ├── model-data.pdf           # Diagram model data
-    │   └── proses_etl.png           # Diagram alur ETL
+    │   └── proses_etl.png           # ETL flowchart
     ├── kettle/                      # Folder berisi file Kettle (ETL)
-    │   ├── Etl_monitoring_biaya.kjb # Job utama ETL
-    │   ├── job/                     # (opsional) Sub-job lainnya
+    │   ├── Etl_monitoring_biaya.kjb # Main job of ETL
+    │   ├── job/                     
     │   ├── setVariable_timestamp.ktr
     │   ├── setbudget.ktr
     │   ├── staging_area.ktr
@@ -31,27 +30,28 @@ Proyek ini bertujuan untuk membangun proses ETL (Extract, Transform, Load) dan d
 
 
 
-# 📁 Sumber Data
+# 📁 Data Source
 
-    Budget            : Berasal dari file Excel berisi alokasi budget per departemen dan kategori.
+    Budget: Derived from Excel file containing budget allocation per department and category.
     
-    Transaksi Biaya   : Data transaksi dummy.
+    Cost Transaction : Dummy transaction data.
     
-    Dimensi Pendukung : Tabel referensi untuk dim_waktu, dim_kategori, dim_departemen.
+    Supporting Dimensions : Reference tables for dim_time, dim_category, dim_department.
 
 
-## 🌟 Tentang Saya
+## About Me
 
-Halo! Saya **Afrijal Rasya Putra**, seorang **mahasiswa Informatika** yang sedang tertarik mendalami dunia **Data**. Meskipun masih di awal perjalanan kuliah, saya sangat antusias belajar tentang bagaimana data diproses dan diubah menjadi informasi yang bermakna.
+Hello, I am **Afrijal Rasya Putra**, an Informatics student who is interested in exploring the world of **Data**. Although it's still early in my college journey, I'm excited to learn about how data is processed and turned into meaningful information.
 
-📌 Saat ini saya sedang belajar:
-- Teknik pengolahan data
-- **SQL** dan dasar-dasar manipulasi data
-- Konsep dasar **ETL** dan alur kerja data pipeline
+📌 I am currently studying:
+- Data processing techniques
+- **SQL** and the basics of data manipulation
+- Basic concepts of **ETL** and data pipeline workflows
 
-Saya senang belajar dan mengeksplorasi hal-hal baru, terutama yang berkaitan dengan data. Saat ini saya sedang membangun keterampilan secara bertahap dan terus mencari peluang untuk berkembang. Saya juga terbuka untuk **magang** atau **proyek kolaboratif** yang bisa memberi saya pengalaman langsung dan membantu proses belajar saya.
+I love learning and exploring new things, especially those related to data. I am currently building my skills gradually and constantly looking for opportunities to grow. I am also open to **internships** or **collaborative projects** that can give me hands-on experience and help my learning process.
 
-📫 Jangan ragu untuk terhubung atau berdiskusi—saya senang bisa belajar dan berkembang bersama!
+📫 Feel free to connect or discuss-I'd love to learn and grow together!
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afrijalrasyaputra/)
     
