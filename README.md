@@ -1,7 +1,7 @@
 # 🚀 Operational Cost Monitoring - ETL & Dashboard
 
 This project aims to build an ETL (Extract, Transform, Load) process and an interactive dashboard to monitor the company's cost usage by department and category in 2025. The project is developed using Pentaho Data Integration (PDI) for ETL process and Power BI for data visualization.
-----
+
 
 🔄 Alur ETL
 ![ETL Flow](docs/proses_etl.png)
